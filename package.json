@@ -1,0 +1,11 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "React node express app template",
+  "repository": "https://github.com/sobhan014/node-full-stack-template.git",
+  "license": "MIT",
+  "scripts": {
+    "start:client": "cd client && yarn start",
+    "start:server": "cd server && yarn start"
+  }
+}
