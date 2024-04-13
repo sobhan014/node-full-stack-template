@@ -19,3 +19,11 @@ Or if you don't want to run the server in dev mode, you can run
 ```
 yarn start:server
 ```
+Note: As long as ESLint flat configs are experimental in VSCode, to have the errors show up in VSCode, you need to add this line to your VSCode settings:
+```
+"eslint.experimental.useFlatConfig": true,
+```
+or to get the full list of eslint errors/warnings in the repo, simply run
+```
+yarn eslint
+```
