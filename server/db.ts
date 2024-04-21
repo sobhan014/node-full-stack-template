@@ -1,6 +1,7 @@
 import { MongoClient } from 'mongodb';
+import env from './env';
 
-const mongodbUri = 'mongodb://localhost:27017';
+const mongodbUri = env.mongodb.uri;
 const client = new MongoClient(mongodbUri);
 
 let db;
